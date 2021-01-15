@@ -1,0 +1,85 @@
+.post_section {
+    margin-top: 70px;
+    .post_output_title {
+        margin-bottom: 15px;
+        font: 600 2rem 'Roboto', sans-serif;
+        @media (max-width: 990px) {
+            font: 600 1.5rem 'Roboto', sans-serif;
+        }
+    }
+    .info_post {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        .tag {
+            margin: 0 20px 0 0;
+            color: #fff;
+            border-radius: 4px;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font: 600 1rem 'Roboto', sans-serif;
+        }
+        .data {
+            font: 500 1rem 'Roboto', sans-serif;
+            color: #000;
+        }
+    }
+    .post_single_output {
+        img {
+            max-width: 100%;
+            height: auto;
+            width: 100%;
+            object-fit: cover;
+            margin: 10px 0;
+        }
+        p {
+            margin-bottom: 10px;
+            font: 400 1rem/23px 'Roboto', sans-serif;
+            @media (max-width: 990px) {
+                font: 400 .95rem/21px 'Roboto', sans-serif;
+            }
+        }
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-bottom: 10px;
+            font: 500 1.2rem 'Roboto', sans-serif;
+        }
+    }
+    .trands_output_wrap {
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        @media (max-width: 990px) {
+            grid-gap: 15px;
+        }
+        .trands_output_box {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            grid-gap: 20px;
+            align-items: center;
+            @media (max-width: 990px) {
+                grid-template-columns: 80px 1fr;
+            }
+            img {
+                max-width: 100%;
+                border-radius: 3px;
+                height: auto;
+                width: 100%;
+                object-fit: cover;
+            }
+            .trands_info {
+                p {
+                    color: #000;
+                    font: 600 1.125rem 'Roboto', sans-serif;
+                    @media (max-width: 990px) {
+                        font: 600 1rem 'Roboto', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}
