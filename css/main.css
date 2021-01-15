@@ -687,11 +687,21 @@ header {
     .main_section_wrap .newsletter_form .politica {
       margin-top: 10px;
       cursor: pointer;
-      display: block;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
       font: 400 .95rem 'Roboto', sans-serif; }
+      .main_section_wrap .newsletter_form .politica input {
+        margin-right: 10px; }
       .main_section_wrap .newsletter_form .politica a {
         color: #858787;
-        text-decoration: underline; }
+        text-decoration: underline;
+        margin-left: 5px; }
   .main_section_wrap .tags_title {
     margin-bottom: 20px;
     font: 600 1.3rem 'Roboto', sans-serif; }

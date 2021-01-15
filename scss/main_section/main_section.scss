@@ -207,11 +207,16 @@
         .politica {
             margin-top: 10px;
             cursor: pointer;
-            display: block;
+            display: flex;
+            align-items: center;
             font: 400 .95rem 'Roboto', sans-serif;
+            input {
+                margin-right: 10px;
+            }
             a {
                 color: #858787;
                 text-decoration: underline;
+                margin-left: 5px;
             }
         }
     }
