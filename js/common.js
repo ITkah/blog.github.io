@@ -34,6 +34,10 @@ $('.search_btn').on("click", function() {
     $(".search_form").toggle(100);
 });
 
+$('main').on("click", function() {
+    $(".search_form").hide();
+});
+
 var h_hght = 40; // высота шапки
 var h_mrg = 0; // отступ когда шапка уже не видна
 $(function() {
