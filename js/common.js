@@ -30,9 +30,7 @@ $('.phone').on('input', function() {
 var year = new Date().getFullYear();
 $(".year").text(year);
 
-$('.search_btn').on("click", function() {
-    $(".search_form").toggle(100);
-});
+
 
 $('main').on("click", function() {
     $(".search_form").hide();
