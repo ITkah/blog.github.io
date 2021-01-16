@@ -83,3 +83,31 @@
         }
     }
 }
+
+.post_table {
+    margin-top: 20px;
+    .post_table_title {
+        font: 600 1.125rem 'Roboto', sans-serif;
+        margin-bottom: 10px;
+        @media (max-width: 990px) {
+            font: 600 1rem 'Roboto', sans-serif;
+        }
+    }
+    .post_table_box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-bottom: 1px solid #858787;
+        p {
+            color: #858787;
+            font: 400 1rem 'Roboto', sans-serif;
+            @media (max-width: 990px) {
+                font: 400 .9rem 'Roboto', sans-serif;
+            }
+        }
+    }
+    .post_table_box:last-child {
+        border: none;
+    }
+}

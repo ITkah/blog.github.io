@@ -14,6 +14,10 @@ $('.popup-with-zoom-anim').magnificPopup({
     mainClass: 'my-mfp-zoom-in'
 });
 
+$(".call_filter").on("click", function() {
+
+    $(".hide_filter").slideToggle(200);
+});
 
 
 $(".btn_unchor").on("click", function(event) {
